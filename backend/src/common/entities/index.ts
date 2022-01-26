@@ -1,0 +1,3 @@
+/**
+ * entities e.g: abstract
+ */
