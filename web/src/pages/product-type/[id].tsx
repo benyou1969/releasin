@@ -1,6 +1,5 @@
 import { Box, Button, Code, Heading, HStack, Text } from "@chakra-ui/react"
 import React from 'react';
-import "react-datepicker/dist/react-datepicker.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { ProductTypeApi } from "../../../generated";

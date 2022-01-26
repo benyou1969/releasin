@@ -1,10 +1,7 @@
-import { Box, Button, FormControl, FormLabel, Heading, HStack, Input, Radio, Select, VStack } from "@chakra-ui/react"
+import { Box, Button, FormControl, FormLabel, Heading, HStack, Input, Select } from "@chakra-ui/react"
 
 import React from 'react';
 import { Formik, Form, Field, FieldArray } from 'formik';
-import DatePicker from "react-datepicker";
-
-import "react-datepicker/dist/react-datepicker.css";
 import axios from "axios";
 import { useRouter } from "next/router";
 import { AttributeType } from "../../new/product";
